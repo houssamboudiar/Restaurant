@@ -15,6 +15,8 @@ Auth::routes();
 Route::group(['middleware' => ['web','auth']], function()
 {
      Route::get('/', 'LandingController@index')->name('landing');
+     Route::get('/home', 'LandingController@index')->name('landing');
+
 });
 
 //client routes
