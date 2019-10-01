@@ -8,19 +8,23 @@ That's an application food ordering and restaurant management system, provides a
 ### User Functionality / Role :
 
 **Client :**
-	* Order commands.
-	* Reserve Tables.
+* Order commands.
+* Reserve Tables.
+
 **Food Servers :**
-    * Order commands.
-    * Manage Commands.
-	* Reserve Tables.
+* Order commands.
+* Manage Commands.
+* Reserve Tables.
+
 **Cashier :**
-    * Withdraw money.
-    * Print receipts tickets.
+* Withdraw money.
+* Print receipts tickets.
+
 **Cook :**
-	* Check validated commands and update the status of every command then notify servers and clients if any is finished.
+* Check validated commands and update the status of every command then notify servers and clients if any is finished.
+
 **Admin :**
-	* Manage menu users and tables
+* Manage menu users and tables
 
 
 
